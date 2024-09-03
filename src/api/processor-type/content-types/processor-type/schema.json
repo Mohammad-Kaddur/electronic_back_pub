@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "processor_types",
+  "info": {
+    "singularName": "processor-type",
+    "pluralName": "processor-types",
+    "displayName": "Processor Type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "screen_refresh_rates",
+  "info": {
+    "singularName": "screen-refresh-rate",
+    "pluralName": "screen-refresh-rates",
+    "displayName": "Screen Refresh Rate"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

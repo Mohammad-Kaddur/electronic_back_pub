@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "processor_generations",
+  "info": {
+    "singularName": "processor-generation",
+    "pluralName": "processor-generations",
+    "displayName": "Processor Generation"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

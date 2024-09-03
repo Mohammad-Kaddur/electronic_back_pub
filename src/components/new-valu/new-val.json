@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_new_valu_new_vals",
+  "info": {
+    "displayName": "new_val",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "enumeration": {
+      "type": "enumeration",
+      "enum": [
+        "val"
+      ]
+    }
+  }
+}

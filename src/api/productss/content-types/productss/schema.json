@@ -1,0 +1,181 @@
+{
+  "kind": "collectionType",
+  "collectionName": "productsses",
+  "info": {
+    "singularName": "productss",
+    "pluralName": "productsses",
+    "displayName": "product",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "desc": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "quantity": {
+      "type": "integer"
+    },
+    "is_new": {
+      "type": "boolean"
+    },
+    "category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::category.category"
+    },
+    "free_cargo": {
+      "type": "boolean"
+    },
+    "a_final_product": {
+      "type": "boolean"
+    },
+    "device_weight": {
+      "type": "string"
+    },
+    "operating_systems": {
+      "type": "string"
+    },
+    "screen_size": {
+      "type": "string"
+    },
+    "resolution": {
+      "type": "string"
+    },
+    "purpose_of_usage": {
+      "type": "string"
+    },
+    "graphics_Card_Type": {
+      "type": "string"
+    },
+    "graphics_Card_Memory": {
+      "type": "string"
+    },
+    "number_of_Processor_Cores": {
+      "type": "string"
+    },
+    "panel_type": {
+      "type": "string"
+    },
+    "ram_type": {
+      "type": "string"
+    },
+    "warranty_type": {
+      "type": "string"
+    },
+    "maximum_processor_speed": {
+      "type": "string"
+    },
+    "Keyboard_type": {
+      "type": "string"
+    },
+    "Keyboard": {
+      "type": "boolean"
+    },
+    "Warranty_Period": {
+      "type": "string"
+    },
+    "Resolution_Standard": {
+      "type": "string"
+    },
+    "Card_Reader": {
+      "type": "string"
+    },
+    "Fingerprint_Reader": {
+      "type": "boolean"
+    },
+    "Webcam": {
+      "type": "boolean"
+    },
+    "HDMI": {
+      "type": "boolean"
+    },
+    "Touch_Screen": {
+      "type": "boolean"
+    },
+    "Bluetooth_Feature": {
+      "type": "boolean"
+    },
+    "Face_Recognition": {
+      "type": "string"
+    },
+    "display_card": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::display-card.display-card"
+    },
+    "ram": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::ram.ram"
+    },
+    "processor_type": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::processor-type.processor-type"
+    },
+    "ssd_capacity": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::ssd-capacity.ssd-capacity"
+    },
+    "processor_generation": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::processor-generation.processor-generation"
+    },
+    "processor_model": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::processor-model.processor-model"
+    },
+    "screen_refresh_rate": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::screen-refresh-rate.screen-refresh-rate"
+    },
+    "brand": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::brand.brand"
+    },
+    "old_price": {
+      "type": "float"
+    },
+    "offer": {
+      "type": "boolean"
+    },
+    "color": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::color.color",
+      "inversedBy": "products"
+    },
+    "dpi": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::dpi.dpi"
+    },
+    "subcategories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::subcategory.subcategory"
+    }
+  }
+}

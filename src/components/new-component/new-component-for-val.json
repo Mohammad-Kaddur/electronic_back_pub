@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_new_component_new_component_for_vals",
+  "info": {
+    "displayName": "new_component_for_val",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "color": {
+      "type": "string"
+    },
+    "test": {
+      "type": "string"
+    }
+  }
+}

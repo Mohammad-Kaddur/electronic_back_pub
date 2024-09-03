@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_testttt_test_ones",
+  "info": {
+    "displayName": "testOne"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "enumeration",
+      "enum": [
+        "v"
+      ]
+    },
+    "price": {
+      "type": "string"
+    }
+  }
+}

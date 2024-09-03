@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dpis",
+  "info": {
+    "singularName": "dpi",
+    "pluralName": "dpis",
+    "displayName": "dpi",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "float"
+    }
+  }
+}

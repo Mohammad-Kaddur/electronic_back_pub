@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ssd_capacities",
+  "info": {
+    "singularName": "ssd-capacity",
+    "pluralName": "ssd-capacities",
+    "displayName": "SSD Capacity"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

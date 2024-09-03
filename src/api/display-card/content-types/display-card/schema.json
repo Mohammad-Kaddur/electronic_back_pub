@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "display_cards",
+  "info": {
+    "singularName": "display-card",
+    "pluralName": "display-cards",
+    "displayName": "Display card",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}
